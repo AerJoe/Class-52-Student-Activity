@@ -1,0 +1,66 @@
+h1{
+    color:red;
+    padding-left:600px
+
+}
+.header *{
+    border:solid
+}
+
+.header{
+    background-color: #00d9ff;
+    display:flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content:first baseline;
+}
+.gameFiles{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.iconFooter{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+.body{
+    background-color:#3433fa
+}
+
+a:link{
+color:indigo
+}
+a:visited{
+color:lime
+}
+
+.item {
+    position:relative;
+}
+.item p {
+    position:absolute;
+    top:75%;
+    left:40%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.7;
+}
+
+.menu {
+    margin-left:30px;
+}
+.menu a{
+    margin-right:20px
+}
